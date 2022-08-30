@@ -1,0 +1,227 @@
+body {
+    background-color: darkgray;
+
+}
+
+#first-page {
+    display: none;
+    border: 2px solid blue;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+
+#first-box {
+    background-color: rgb(142, 142, 241);
+    font-size: 20px;
+    font-style: italic;
+    width: 400px;
+    height: 300px;
+    border: 2px solid blue;
+    margin: auto;
+    border-radius: 20px;
+
+
+
+
+}
+
+#Start {
+    width: 100px;
+    background-color: beige;
+    border: 2px solid burlywood;
+    float: right;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+
+
+
+
+}
+
+#main-heading {
+    font-size: 25px;
+    margin: 5px;
+    padding-top: 15px;
+
+
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+#next {
+    display: block;
+    background-color: beige;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+    border: 2px solid darkblue;
+
+
+
+
+}
+
+#ques {
+    font-size: 20px;
+
+}
+
+#second-page {
+    display: none;
+    border: 2px solid blue;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#third-page {
+    display: none;
+    border: 2px solid blue;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#fourth-page {
+    display: none;
+    border: 2px solid blue;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+
+
+#fifth-page {
+    display: none;
+    border: 2px solid blue;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#result1 {
+    display: inline;
+    width: 100%;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+    padding: 3px;
+
+
+}
+
+#result {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+
+
+}
+
+#score-box {
+    width: 400px;
+    position: absolute;
+
+    top: 70px;
+
+    bottom: -210px;
+
+
+    height: 100px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    background-color: burlywood;
+    background-image: url('scoreimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+    margin: auto;
+    display: inline;
+
+    left: 450px;
+    padding: 20px;
+
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+
+
+    border-radius: 20px;
+    display: none;
+
+}
+
+#hd {
+    width: 190px;
+    margin: auto;
+    padding: 5px;
+    font-size: 40px;
+    text-decoration-line: underline;
+    display: none;
+  
+
+}
+
+#my_table {
+    display: none;
+    width: 400px;
+ margin: auto;
+ margin-top: 300px;
+
+
+
+
+}
+#fr{
+    font-size: 30px;
+    width: 400px;
+    text-decoration: underline;
+    color: darkred;
+    margin: auto;
+    display: none;
+
+}
+
+table,
+th,
+td {
+
+
+    border: 2px solid black;
+    border-collapse: collapse;
+}

@@ -6,237 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: darkgray;
-
-        }
-
-        #first-page {
-            display: none;
-            border: 2px solid blue;
-            width: 400px;
-            height: 300px;
-            margin: auto;
-            background-color: skyblue;
-            padding: 10px;
-            border-radius: 20px;
-
-
-        }
-
-        #first-box {
-            background-color: rgb(142, 142, 241);
-            font-size: 20px;
-            font-style: italic;
-            width: 400px;
-            height: 300px;
-            border: 2px solid blue;
-            margin: auto;
-            border-radius: 20px;
-
-
-
-
-        }
-
-        #Start {
-            width: 100px;
-            background-color: beige;
-            border: 2px solid burlywood;
-            float: right;
-            font-weight: bold;
-            padding: 5px;
-            border-radius: 10px;
-            margin-bottom: 3px;
-
-
-
-
-        }
-
-        #main-heading {
-            font-size: 25px;
-            margin: 5px;
-            padding-top: 15px;
-
-
-            font-weight: bold;
-            text-decoration: underline;
-
-
-        }
-
-        #next {
-            display: block;
-            background-color: beige;
-            font-weight: bold;
-            padding: 5px;
-            border-radius: 10px;
-            margin: 10px;
-            width: 100px;
-            border: 2px solid darkblue;
-
-
-
-
-        }
-
-        #ques {
-            font-size: 20px;
-
-        }
-
-        #second-page {
-            display: none;
-            border: 2px solid blue;
-            width: 400px;
-            height: 300px;
-            margin: auto;
-            background-color: skyblue;
-            padding: 10px;
-            border-radius: 20px;
-
-        }
-
-        #third-page {
-            display: none;
-            border: 2px solid blue;
-            width: 400px;
-            height: 300px;
-            margin: auto;
-            background-color: skyblue;
-            padding: 10px;
-            border-radius: 20px;
-        }
-
-        #fourth-page {
-            display: none;
-            border: 2px solid blue;
-            width: 400px;
-            height: 300px;
-            margin: auto;
-            background-color: skyblue;
-            padding: 10px;
-            border-radius: 20px;
-
-        }
-
-
-
-        #fifth-page {
-            display: none;
-            border: 2px solid blue;
-            width: 400px;
-            height: 300px;
-            margin: auto;
-            background-color: skyblue;
-            padding: 10px;
-            border-radius: 20px;
-
-        }
-
-        #result1 {
-            display: inline;
-            width: 100%;
-            border-radius: 10px;
-            background-color: blanchedalmond;
-            border: 2px solid blue;
-            padding: 3px;
-
-
-        }
-
-        #result {
-            width: 100%;
-            padding: 5px;
-            margin-bottom: 5px;
-            border: 2px solid red;
-            border-radius: 20px;
-
-
-        }
-
-        #score-box {
-            width: 400px;
-            position: absolute;
-
-            top: 70px;
-
-            bottom: -210px;
-
-
-            height: 100px;
-            border: 2px solid blue;
-            display: flex;
-            flex-direction: row;
-            justify-self: center;
-            background-color: burlywood;
-            background-image: url('scoreimg.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-
-
-
-
-            margin: auto;
-            display: inline;
-
-            left: 450px;
-            padding: 20px;
-
-            font-size: 30px;
-            color: darkblue;
-            font-weight: bold;
-
-
-            border-radius: 20px;
-            display: none;
-
-        }
-
-        #hd {
-            width: 190px;
-            margin: auto;
-            padding: 5px;
-            font-size: 40px;
-            text-decoration-line: underline;
-            display: none;
-          
-
-        }
-
-        #my_table {
-            display: none;
-            width: 400px;
-         margin: auto;
-         margin-top: 300px;
-
-
-
-
-        }
-        #fr{
-            font-size: 30px;
-            width: 400px;
-            text-decoration: underline;
-            color: darkred;
-            margin: auto;
-            display: none;
-
-        }
-
-        table,
-        th,
-        td {
-
-
-            border: 2px solid black;
-            border-collapse: collapse;
-        }
-
-       
-    </style>
+   <link rel="stylesheet" href="index.css">
 
 </head>
 
@@ -266,15 +36,16 @@
 
         </ul>
 
-
         <button id="next" onclick="secondques()">Next</button>
 
     </div>
-    <h2 id="hd">Score Box</h2>
+    
+  
 
 
     <div id="score-box">
     </div>
+   
 
     <div id="second-page">
         <h5>Question 2 to 5</h5>
@@ -287,11 +58,22 @@
             <li class="btn" id="op4" onclick="check2(this.value)" value="4">All of these</li>
 
         </ul>
+       
         <button id="next" onclick="thirdques()">Next</button>
 
 
     </div>
-    <h2 id="hd">Score Box</h2>
+    
+
+
+  
+
+
+    <div id="score-box">
+    </div>
+
+    
+   
 
 
     <div id="third-page">
@@ -308,8 +90,13 @@
         <button id="next" onclick="fourthques()">Next</button>
 
     </div>
-    <h2 id="hd">Score Box</h2>
+  
+ 
+    
 
+
+    <div id="score-box">
+    </div>
 
 
     <div id="fourth-page">
@@ -324,10 +111,17 @@
 
         </ul>
         <button id="next" onclick="fifthques()">Next</button>
+       
+       
 
     </div>
-    <h2 id="hd">Score Box</h2>
+  
+    <div id="score-box">
+    </div>
+    
+   
 
+    
 
     <div id="fifth-page">
         <h5>Question 5 to 5</h5>
@@ -368,205 +162,7 @@
     </table>
 
 
-    <script>
-        function start() {
-            var dis = document.getElementById("first-page").style.display = 'block';
-            var hide = document.getElementById("first-box").style.display = 'none'
-
-        }
-        function secondques() {
-            var hide = document.getElementById("first-box").style.display = 'none';
-            var dis = document.getElementById("first-page").style.display = 'none';
-            var sec = document.getElementById("second-page").style.display = 'block';
-        }
-        var score = 0;
-        function check(correctone) {
-            switch (correctone) {
-                case 28:
-                    document.getElementById("opt1").style.backgroundColor = 'green';
-                    document.getElementById("hd").style.display = "block";
-
-                    score = score + 1;
-                    document.getElementById("score-box").innerHTML = " Welldone !your score is" + score;
-
-                    document.getElementById("score-box").style.display = "block";
-
-                    break;
-                case 30:
-                    document.getElementById("opt2").style.backgroundColor = 'red';
-                    break;
-                case 90:
-                    document.getElementById("opt3").style.backgroundColor = 'red';
-                    break;
-                case 20:
-                    document.getElementById("opt4").style.backgroundColor = 'red';
-                    break;
-
-            }
-
-        }
-        function check2(correct) {
-            switch (correct) {
-                case 1:
-                    document.getElementById("op1").style.backgroundColor = 'green';
-                    document.getElementById("hd").style.display = "block";
-
-                    score = score + 1;
-
-
-                    document.getElementById("score-box").innerHTML = "Welldone! Your score is" + score;
-                    document.getElementById("score-box").style.display = "block";
-
-
-                    break;
-                case 2:
-                    document.getElementById("op2").style.backgroundColor = 'red';
-                    break;
-                case 3:
-                    document.getElementById("op3").style.backgroundColor = 'red';
-                    break;
-                case 4:
-                    document.getElementById("op4").style.backgroundColor = 'red';
-                    break;
-
-            }
-        }
-
-        function thirdques() {
-            var hide = document.getElementById("first-box").style.display = 'none';
-            var dis = document.getElementById("first-page").style.display = 'none';
-            var sec = document.getElementById("second-page").style.display = 'none';
-            var third = document.getElementById("third-page").style.display = 'block';
-
-        }
-        // function for marking right option for mcq3
-        function check3(correct) {
-            switch (correct) {
-                case 10:
-                    document.getElementById("o1").style.backgroundColor = 'green';
-                    document.getElementById("hd").style.display = "block";
-                    score = score + 1;
-                    document.getElementById("score-box").innerHTML = "Welldone Your score is" + score;
-                    document.getElementById("score-box").style.display = "block";
-                    break;
-                case 20:
-                    document.getElementById("o2").style.backgroundColor = 'red';
-                    break;
-                case 30:
-                    document.getElementById("o3").style.backgroundColor = 'red';
-                    break;
-                case 40:
-                    document.getElementById("o4").style.backgroundColor = 'red';
-                    break;
-            }
-
-
-        }
-        function fourthques() {
-            var hide = document.getElementById("first-box").style.display = 'none';
-            var dis = document.getElementById("first-page").style.display = 'none';
-            var sec = document.getElementById("second-page").style.display = 'none';
-            var third = document.getElementById("third-page").style.display = 'none';
-            var fourth = document.getElementById("fourth-page").style.display = 'block';
-
-        }
-        function check4(correct) {
-            switch (correct) {
-                case 1:
-                    document.getElementById("on1").style.backgroundColor = 'green';
-                    document.getElementById("hd").style.display = "block";
-                    score = score + 1;
-                    
-                    document.getElementById("score-box").innerHTML = "Welldone! Your score is" + score;
-                    document.getElementById("score-box").style.display = "block";
-                    break;
-                case 2:
-                    document.getElementById("on2").style.backgroundColor = 'red';
-                    break;
-                case 3:
-                    document.getElementById("on3").style.backgroundColor = 'red';
-                    break;
-                case 4:
-                    document.getElementById("on4").style.backgroundColor = 'red';
-                    break;
-            }
-        }
-       
-        
-        function fifthques() {
-            var hide = document.getElementById("first-box").style.display = 'none';
-            var dis = document.getElementById("first-page").style.display = 'none';
-            var sec = document.getElementById("second-page").style.display = 'none';
-            var third = document.getElementById("third-page").style.display = 'none';
-            var fourth = document.getElementById("fourth-page").style.display = 'none';
-            var fifth = document.getElementById("fifth-page").style.display = 'block';
-
-
-        }
-        function check5(correct) {
-            switch (correct) {
-                case 1:
-                    document.getElementById("optn1").style.backgroundColor = 'green';
-                    document.getElementById("hd").style.display = "block";
-                    score = score + 1;
-                    document.getElementById("score-box").innerHTML = " Welldone! Your score is" + score + "<br> you have completed the quiz  ";
-                    document.getElementById("score-box").style.display = "block";
-               
-                    break;
-                case 2:
-                    document.getElementById("optn2").style.backgroundColor = 'red';
-                    break;
-                case 3:
-                    document.getElementById("optn3").style.backgroundColor = 'red';
-                    break;
-                case 4:
-                    document.getElementById("optn4").style.backgroundColor = 'red';
-                    break;
-            }
-
-        }
-        function viewresult() {
-            var hide = document.getElementById("first-box").style.display = 'none';
-            var dis = document.getElementById("first-page").style.display = 'none';
-            var sec = document.getElementById("second-page").style.display = 'none';
-            var third = document.getElementById("third-page").style.display = 'none';
-            var fourth = document.getElementById("fourth-page").style.display = 'none';
-            var fifth = document.getElementById("fifth-page").style.display = 'none';
-            document.getElementById("score-box").style.display='none';
-            document.getElementById("my_table").style.display = "block";
-            document.getElementById("fr").style.display="block";
-            document.getElementById("obtained_score").innerHTML=score;
-            if(score==5){
-                document.getElementById("perc").innerHTML=100 + "%";
-            }
-            else if(score==4){
-                document.getElementById("perc").innerHTML=80 + "%";
-
-            }
-            else if(score==3){
-                document.getElementById("perc").innerHTML=60 + "%";
-
-            }
-            else if(score==2){
-                document.getElementById("perc").innerHTML=40 + "%";
-
-            }
-            else{
-                document.getElementById("perc").innerHTML=20 + "%";
-                
-            }
-          
-            
-
-          
-
-
-
-
-
-        }
-
-    </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
